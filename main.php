@@ -22,7 +22,7 @@
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
   <li><a class="active-home" href="main.php">Home</a></li>
-  <li><a class="active-news" href="#news">News</a></li>
+  <li><a class="active-news" href="http://www.nsbm.lk/news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
@@ -36,6 +36,7 @@
     <li class="dropdown">
     <a href="#" class="dropbtn">More</a>
     <div class="dropdown-content">
+      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
       <a href="#">Societies</a>
       <a href="#">Clubs</a>
       <a href="#">Activities</a>
