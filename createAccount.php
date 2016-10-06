@@ -15,16 +15,27 @@
 
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
-  <li><a class="active-home" href="main.html">Home</a></li>
+  <li><a class="active-home" href="main.php">Home</a></li>
   <li><a class="active-home" href="#news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
-      <a href="computing.html">Computing</a>
+      <a href="computing.php">Computing</a>
       <a href="#">Business</a>
       <a href="#">Engineering</a>
     </div>
   </li>
+
+      <li class="dropdown">
+    <a href="#" class="dropbtn">More</a>
+    <div class="dropdown-content">
+      <a href="#">Societies</a>
+      <a href="#">Clubs</a>
+      <a href="#">Activities</a>
+    </div>
+
+  </li>
+  
 
   <div id="regButton">
   <a href="loginForm.php"><input type="button" class="Lgbutton" value="Login" align="right" ></a>
