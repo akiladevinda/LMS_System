@@ -1,0 +1,71 @@
+<?php 
+	session_start();
+ ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create New Account</title>
+
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body background="bg.jpg">
+<div id="header-wrap">  
+
+<ul>
+  <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
+  <li><a class="active-home" href="main.html">Home</a></li>
+  <li><a class="active-home" href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Courses</a>
+    <div class="dropdown-content">
+      <a href="computing.html">Computing</a>
+      <a href="#">Business</a>
+      <a href="#">Engineering</a>
+    </div>
+ </li>
+
+    <div id="regButton">
+
+
+				    <div class="notify">
+				   <?php 
+					if (isset($_SESSION['ID'])){
+						echo '<h3 style="color:#0CYF730"> Your Logged ID NO :'.$_SESSION['ID'].'</h3>';
+					}else {
+						echo '<h3 style="color:#0CF730">You are not logged in !</h3>';
+					}
+
+				 ?>
+
+				 </div>
+
+  <a href="logOut.php"><input type="button" class="Lgbutton" value="Log Out" align="right" ></a>
+
+  </div>
+
+</ul>
+
+
+<div class="accLog">
+<form method="post" action="loginConnect.php">
+
+	<h3 style="color:white; font-family:verdana">Username : </h3><br>
+	<input type="text" name="uname" style="font-size: 20pt"/><br><br>
+	<h3 style="color:white; font-family:verdana">Password : </h3><br>
+	<input type="password" name="pass" style="font-size: 20pt"/><br><br>
+	<input type="submit" class="loginButton" value="Login">
+
+</form>
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

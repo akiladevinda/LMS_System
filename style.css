@@ -1,0 +1,360 @@
+#top-header{
+	z-index: -1000;
+    width: 100%;
+    height: 500px;
+
+ }
+
+#header-wrap{
+
+	position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    
+
+}
+
+.normal{
+
+ 	height: 300px;
+    width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: verdana;
+}
+li a:hover, .active-home:hover{
+	 background-color: gray;
+
+
+}
+
+li a:hover, .active-news:hover{
+	 background-color: gray;
+
+
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: verdana;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#login-footer {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    padding: 10px;
+    top: 100px;
+
+
+}
+
+#header1Account{
+	color: white;
+	font-family: verdana;
+	text-align: center;
+}
+
+#regButton{
+ 	float: right;
+
+ }
+
+.button {
+  position: right;
+  padding: 10px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F36D0B;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #7D2B0C}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Lgbutton {
+  position: right;
+  padding: 10px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F36D0B;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+.Lgbutton:hover {background-color: #7D2B0C}
+
+.Lgbutton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+
+	width: 1024px;
+	margin: 2em auto;
+
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	 border: 10px solid white;
+    
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+
+.createButton {
+  position: right;
+  padding: 5px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0760F3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #0760F3;
+}
+
+.createButton:hover {background-color: #0760F3}
+
+.createButton:active {
+  background-color: #0760F3;
+  box-shadow: 0 5px #0760F3;
+  transform: translateY(4px);
+}
+
+.accLog{
+    position: absolute;
+    right: 700px;
+    top: 250px;
+	width: 300px;
+    padding: 10px;
+
+}
+
+.loginButton {
+  position: right;
+  padding: 5px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0760F3;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #0760F3;
+}
+
+.loginButton:hover {background-color: #0760F3}
+
+.loginButton:active {
+  background-color: #0760F3;
+  box-shadow: 0 5px #0760F3;
+  transform: translateY(4px);
+}
+
+.error{
+	color: red;
+}
+
+
+.dashboard{
+
+	width: 250px;
+	height: 750px;
+	
+}
+
+.dashHeader{
+	font-family: verdana;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+li a:hover, .dropdown1:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown1 {
+ 
+    right: 600px;
+    top: 250px;
+	width: 300px;
+    padding: 10px;
+
+    float: right;
+}
+
+.dropdown1-content {
+    display: none;
+    position: absolute;
+    background-color: #0C76F5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: verdana;
+}
+
+.dropdown1-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown1-content a:hover {background-color: #8AB9F1}
+
+.dropdown1:hover .dropdown1-content {
+    display: block;
+}
+
+.mainLog {
+	text-decoration: none;
+}
+
+.newNote{
+	width: 200px;
+	height: 200px;
+	display: none;
+}
+
+
+.dashHeader{
+	color: gray;
+}
+
+
+
+
+.buttonAddNotes {
+  padding: 7px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #F36D0B;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonAddNotes:hover {background-color: #7D2B0C}
+
+.buttonAddNotes:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header4{
+  color: white;
+  float: center;
+
+}
+
+.notify{
+  color: #0CF730;
+  float: right;
+  left: 100px;
+}
