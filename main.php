@@ -27,8 +27,8 @@
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
       <a href="computing.php">Computing</a>
-      <a href="#">Business</a>
-      <a href="#">Engineering</a>
+      <a href="management.php">Business</a>
+      <a href="engineering.php">Engineering</a>
     </div>
 
   </li>
