@@ -14,31 +14,29 @@
 
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
-  <li><a class="active-home" href="main.html">Home</a></li>
+  <li><a class="active-home" href="main.php">Home</a></li>
   <li><a class="active-home" href="#news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
-      <a href="computing.html">Computing</a>
+      <a href="computing.php">Computing</a>
       <a href="#">Business</a>
       <a href="#">Engineering</a>
     </div>
  </li>
 
+     <li class="dropdown">
+    <a href="#" class="dropbtn">More</a>
+    <div class="dropdown-content">
+      <a href="#">Societies</a>
+      <a href="#">Clubs</a>
+      <a href="#">Activities</a>
+    </div>
+
+  </li>
+  
+
     <div id="regButton">
-
-
-				    <div class="notify">
-				   <?php 
-					if (isset($_SESSION['ID'])){
-						echo '<h3 style="color:#0CYF730"> Your Logged ID NO :'.$_SESSION['ID'].'</h3>';
-					}else {
-						echo '<h3 style="color:#0CF730">You are not logged in !</h3>';
-					}
-
-				 ?>
-
-				 </div>
 
   <a href="logOut.php"><input type="button" class="Lgbutton" value="Log Out" align="right" ></a>
 
@@ -46,6 +44,17 @@
 
 </ul>
 
+		            <div class="notify">
+           <?php 
+          if (isset($_SESSION['username'])){
+            echo '<h3 style="color:#0CYF730"> Your Logged Username :'.$_SESSION['username'].'</h3>';
+          }else {
+            echo '<h3 style="color:#0CF730">You are not logged in !</h3>';
+          }
+
+         ?>
+
+         </div>
 
 <div class="accLog">
 <form method="post" action="loginConnect.php">
