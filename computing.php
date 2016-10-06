@@ -19,14 +19,13 @@
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
   <li><a class="active-home" href="main.php">Home</a></li>
-  <li><a class="active-home" href="#news">News</a></li>
+  <li><a class="active-home" href="http://www.nsbm.lk/news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
-      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
-      <a href="computing.html">Computing</a>
-      <a href="#">Business</a>
-      <a href="#">Engineering</a>
+      <a href="computing.php">Computing</a>
+      <a href="management.php">Business</a>
+      <a href="engineering.php">Engineering</a>
     </div>
 </li>
 
@@ -34,6 +33,7 @@
     <li class="dropdown">
     <a href="#" class="dropbtn">More</a>
     <div class="dropdown-content">
+      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
       <a href="#">Societies</a>
       <a href="#">Clubs</a>
       <a href="#">Activities</a>
@@ -104,7 +104,7 @@ function emptyDiv2() {
 <div id="article" >
 
   <form action="addNotes.php" method="POST">
-  Title : <input type="text" placeholder="Title Here" class="noteTitle" name="noteTitle" /><br><br>
+  <input type="text" placeholder="Title Here" class="noteTitle" name="noteTitle" /><br><br>
   <textarea class="txt" placeholder="Enter Your Notes" name="txtArea"></textarea>
   
 
