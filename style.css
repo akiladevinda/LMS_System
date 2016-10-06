@@ -11,15 +11,11 @@
     width: 100%;
     height: 50px;
     background-color: transparent;
+    display: block;
     
 
 }
 
-.normal{
-
- 	height: 300px;
-    width: 500px;
-}
 
 ul {
     list-style-type: none;
@@ -41,6 +37,7 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
     font-family: verdana;
+ 
 }
 li a:hover, .active-home:hover{
 	 background-color: gray;
@@ -58,7 +55,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 li.dropdown {
-    display: inline-block;
+    display:block;
 }
 
 .dropdown-content {
@@ -156,12 +153,13 @@ li.dropdown {
 html,body {
 	margin: 0;
 	padding: 0;
+
 }
 .slider {
 
 	width: 1024px;
 	margin: 2em auto;
-
+  margin-top: 0%;
 	
 }
 
@@ -309,13 +307,10 @@ li.dropdown1 {
 
 .mainLog {
 	text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
-.newNote{
-	width: 200px;
-	height: 200px;
-	display: none;
-}
 
 
 .dashHeader{
@@ -356,5 +351,212 @@ li.dropdown1 {
 .notify{
   color: #0CF730;
   float: right;
-  left: 100px;
+  left: 150px;
+}
+
+.addNotes{
+
+    width: 250px;
+  height: 750px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.container {
+    width: 1725px;
+    height: 700px;
+    border: 5px solid gray;
+}
+
+
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+.article {
+    margin-left: 300px;
+    border-left: 5px solid gray;
+    padding: 15em;
+    overflow: hidden;
+    display: none;
+
+}
+
+
+
+.buttonCom {
+  position: right;
+  padding: 10px 25px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #D5200E;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonCom:hover {background-color: gray}
+
+.buttonCom:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#article{
+  display: none;
+
+}
+
+#article2{
+  display: none;
+
+}
+
+.txt{
+  width: 600px;
+  height: 600px;
+  font-size: 20px;
+  background-color: #0D2D30;
+  color: white;
+}
+
+#upload{
+  color: gray;
+  font-size: 25px;
+  float: right;
+  font-family: verdana;
+  margin-right: 15%;
+}
+
+.addBtn{
+  width: 90px;
+  height: 40px;
+  margin-left: 5%;
+  margin-top: 20%;
+  font-family: verdana;
+}
+
+.uploadBtn{
+    max-width: 90px;
+  max-height: 40px;
+    font-family: verdana;
+    background-color: #0F7F8A;
+}
+
+.noteTitle{
+  width: 500px;
+  height: 30px;
+  font-family: verdana;
+  background-color: #2D3333;
+  color: white;
+  font-weight: bold;
+}
+
+.idNo{
+  width: 50px;
+  height: 30px;
+}
+
+.normal{
+  border:none;
+  width:60%;
+  height:350px;
+  border-radius:5px;
+  margin-top:5px;
+  margin-left:20%;
+  margin-right:1%;
+
+}
+
+.h3howTo{
+  font-family: verdana;
+  font-weight: bold;
+  color: #078CE8;
+  font-size: 30px;
+
+
+}
+
+.para1-howTo {
+  font-family: verdana;
+  color: #F0DEC6;
+  font-size: 18px;
+
+}
+
+.readMore-home{
+  float: right;
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+
+}
+
+.h2-howToPage{
+  text-align: center;
+  font-size: 30px;
+  font-family: verdana;
+  color: #078CE8;
+
+
+}
+
+.h3-eLearning{
+float: left;
+font-size: 20px;
+font-family: "Lucida Sans Unicode";
+color: #A0D4F7;
+
+
+}
+
+.para1-elearning{
+  font-family: verdana;
+  color: #F0DEC6;
+  font-size: 18px;
+}
+
+.h4-eLearning{
+float: left;
+font-weight: bold;
+font-size: 25px;
+font-family: "Lucida Sans Unicode";
+color: white;
+
+
+}
+
+img {
+    float: left;
 }
