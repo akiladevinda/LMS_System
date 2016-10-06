@@ -64,7 +64,7 @@
 
 
 
-<h1 style="color:#0771F0 ; font-size: 20pt; font-family:gotham; text-align:center" >Corse : Computing [Information Technology]</h1>
+<h1 style="color:#0771F0 ; font-size: 20pt; font-family:gotham; text-align:center" >Course : Computing [Information Technology]</h1>
 
 <div class="container">
 
@@ -96,7 +96,7 @@ function emptyDiv2() {
 <nav>
   <ul>
     <li><input type="button" class="buttonCom" value="Add Notes" align="right" onclick="showDiv1()"></li><br><br><br><br>
-    <li><input type="button" class="buttonCom" value="View Notes" align="right" onclick="showDiv2()"></li><br><br><br><br>
+    <a href="viewNotes.php" class="linkToview">View Notes</a>
   </ul>
 </nav>
 
@@ -115,7 +115,7 @@ function emptyDiv2() {
       <input type="file" value="Upload Here" name="file4"/><br><br><br>
 
 
-      Your ID No : <input type="text" name="idNo"  class="idNo" /><br>
+      Username : <input type="text" name="idNo"  class="idNo" /><br>
 
   </div>
         <input type="submit" value="Add Note" name="submit" class="addBtn"/>
