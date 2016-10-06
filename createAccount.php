@@ -29,6 +29,7 @@
       <li class="dropdown">
     <a href="#" class="dropbtn">More</a>
     <div class="dropdown-content">
+      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
       <a href="#">Societies</a>
       <a href="#">Clubs</a>
       <a href="#">Activities</a>
@@ -47,7 +48,7 @@
 
 <h2 style="color:#8DEA9B ; font-size: 30pt; font-family:gotham; text-align:center" >Just Few Steps ! Create Account Here</h2>
 
-<form method="post" action="newStudentAdding.php">
+<form method="post" action="newStudentAdding.php" >
 
 <p><span class="error">* Required Field.</span></p>
 	<h3 style="color:white; font-family:verdana">First Name : </h3><br>
