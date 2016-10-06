@@ -1,3 +1,7 @@
+<?php 
+  session_start();
+ ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,6 +42,21 @@
     </div>
 
   </li>
+
+      <div id="regButton">
+
+
+            <div class="notify">
+           <?php 
+          if (isset($_SESSION['ID'])){
+            echo '<h3 style="color:#0CYF730"> Your Logged ID NO :'.$_SESSION['ID'].'</h3>';
+          }else {
+            echo '<h3 style="color:#0CF730">You are not logged in !</h3>';
+          }
+
+         ?>
+
+         </div>
   
   <div id="regButton">
   <a href="createAccount.php"><input type="button" class="button" value="Register" align="right"></a>
