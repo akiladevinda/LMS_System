@@ -23,6 +23,7 @@
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
+      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
       <a href="computing.html">Computing</a>
       <a href="#">Business</a>
       <a href="#">Engineering</a>
