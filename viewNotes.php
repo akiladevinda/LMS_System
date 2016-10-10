@@ -19,13 +19,13 @@
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
   <li><a class="active-home" href="main.php">Home</a></li>
-  <li><a class="active-home" href="#news">News</a></li>
+  <li><a class="active-home" href="http://www.nsbm.lk/news">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
-      <a href="computing.html">Computing</a>
-      <a href="#">Business</a>
-      <a href="#">Engineering</a>
+      <a href="computing.php">Computing</a>
+      <a href="management.php">Business</a>
+      <a href="engineering.php">Engineering</a>
     </div>
 </li>
 
@@ -33,6 +33,7 @@
     <li class="dropdown">
     <a href="#" class="dropbtn">More</a>
     <div class="dropdown-content">
+      <a href="http://lms.nsbm.lk/mod/resource/view.php?id=5655&subdir=/Computing">Class Time Tables</a>
       <a href="#">Societies</a>
       <a href="#">Clubs</a>
       <a href="#">Activities</a>
@@ -85,20 +86,13 @@ $link=mysqli_connect('localhost','root','','addnotes');
 $data = mysqli_query($link,$sql);
 
 
-//echo '<table border="1" width="80%">';
-//echo '<th> Note ID </th>';
-//echo '<th> Note title </th>';s
-//echo '<th> Note </th>';
-
 
 while ( $row = mysqli_fetch_array($data) )
 {
-  // echo '<tr>';
-   //echo '<td>'.$row[0].'</td>';
-   //echo '<td>'.$row[1].'</td>';
-   echo '<textarea name="txtArea"  rows="30" cols="30" style="background-color:gray; color:white;">'.$row[2].'</textarea>';
+
+   echo '<textarea name="txtArea"  rows="30" cols="30" style="background-color:#C4E0F3; color:black;">'.$row[2].'</textarea>';
  
-  // echo '</tr>';
+
 }
 
 
