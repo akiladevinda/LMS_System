@@ -15,13 +15,13 @@
 <ul>
   <li><img src="eLeraningLogo.jpg" width="300px" height="45px" border="2"></li>
   <li><a class="active-home" href="main.php">Home</a></li>
-  <li><a class="active-home" href="#news">News</a></li>
+  <li><a class="active-home" href="http://www.nsbm.lk/newss">News</a></li>
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
       <a href="computing.php">Computing</a>
-      <a href="#">Business</a>
-      <a href="#">Engineering</a>
+      <a href="management.php">Business</a>
+      <a href="engineering.php">Engineering</a>
     </div>
  </li>
 
