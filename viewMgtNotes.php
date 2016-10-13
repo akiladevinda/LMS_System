@@ -92,7 +92,7 @@ $data = mysqli_query($link,$sql);
 while ( $row = mysqli_fetch_array($data) )
 {
 
-   echo '<textarea name="txtArea"  rows="30" cols="30" style="background-color:#C4E0F3; color:black; ">'.$row[2].'</textarea>';
+   echo '<textarea name="txtArea"  rows="30" cols="30" style="background-color:#C4E0F3; color:black; ">'.$row[1].'-------------------'.$row[2].'</textarea>';
 
 }
 
