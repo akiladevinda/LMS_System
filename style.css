@@ -115,6 +115,7 @@ li.dropdown {
   border: none;
   border-radius: 5px;
   box-shadow: 0 9px #999;
+ 
 }
 
 .button:hover {background-color: #7D2B0C}
@@ -154,7 +155,7 @@ li.dropdown {
 
 html,body {
 	margin: 0;
-	padding: 0;
+	padding: 2px;
 
 }
 .slider {
@@ -561,4 +562,3 @@ color: white;
 img {
     float: left;
 }
-
