@@ -126,10 +126,12 @@ function emptyDiv2() {
 
       Username : <input type="text" name="username"  class="idNo" /><br>
 
-  </div>
-        <input type="submit" value="Add Note" name="submit" class="addBtn"/>
+      <input type="submit" value="Add Note" name="submit" class="addBtn"/>
 
-        <input type="reset" value="Exit Adding Notes" name="cancel" class="addBtn" onclick="emptyDiv()" />
+      <input type="reset" value="Exit Adding Notes" name="cancel" class="addBtn" onclick="emptyDiv()" />
+
+  </div>
+        
 
   </form>
 
