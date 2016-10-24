@@ -22,9 +22,9 @@
   <li class="dropdown">
     <a href="#" class="dropbtn">Courses</a>
     <div class="dropdown-content">
-      <a href="computing.php">Computing</a>
-      <a href="management.php">Business</a>
-      <a href="engineering.php">Engineering</a>
+      <a href="computingLogin.php">Computing</a>
+      <a href="mgtLogin.php">Business</a>
+      <a href="engLogin.php">Engineering</a>
     </div>
 </li>
 
@@ -46,7 +46,7 @@
 
 
     <div id="regButton">
-  <a href="logOut.php"><input type="button" class="Lgbutton" value="Logout" align="right" ></a>
+  <a href="mgtLogOut.php"><input type="button" class="Lgbutton" value="Logout" align="right" ></a>
   </div>
 
       <div id="regButton">

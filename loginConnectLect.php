@@ -23,6 +23,7 @@ if(!$row = mysqli_fetch_assoc($result)){
 	echo '<script language="javascript">';
 	echo 'alert("Login Fail")';
 	echo '</script>';
+	header('Location:lecturerLogin.php');
 	
 }else {
  	$_SESSION['Lec_ID'] = $row['Lec_ID'];
